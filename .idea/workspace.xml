@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce5bb7f0-c4d2-4ae5-823a-045736c9668c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/boardgame/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boardgame/Piece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/UI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xadrez/Cor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xadrez/JogoXadrez.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xadrez/PecaXadrez.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boardgame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jogoXadrez/Tabuleiro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boardgame/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jogoXadrez/Peca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boardgame/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jogoXadrez/Posicao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -37,8 +45,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Program.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
