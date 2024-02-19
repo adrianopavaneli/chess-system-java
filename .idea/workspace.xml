@@ -5,17 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce5bb7f0-c4d2-4ae5-823a-045736c9668c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/xadrez/pecas/Bispo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xadrez/pecas/Cavalo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xadrez/pecas/Peao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xadrez/pecas/Rainha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xadrez/pecas/Rei.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xadrez/pecas/Torre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jogoTabuleiro/ExcecaoTabuleiro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Programa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jogoXadrez/Tabuleiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jogoXadrez/Tabuleiro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xadrez/Cor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xadrez/Cor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jogoXadrez/Peca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jogoTabuleiro/Peca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jogoXadrez/Posicao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jogoTabuleiro/Posicao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jogoXadrez/Tabuleiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jogoTabuleiro/Tabuleiro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/xadrez/JogoXadrez.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xadrez/JogoXadrez.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xadrez/PecaXadrez.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xadrez/PecaXadrez.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xadrez/pecas/Bispo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xadrez/pecas/Bispo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xadrez/pecas/Cavalo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xadrez/pecas/Cavalo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xadrez/pecas/Peao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xadrez/pecas/Peao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xadrez/pecas/Rainha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xadrez/pecas/Rainha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xadrez/pecas/Rei.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xadrez/pecas/Rei.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xadrez/pecas/Torre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xadrez/pecas/Torre.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

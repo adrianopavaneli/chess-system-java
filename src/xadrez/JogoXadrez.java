@@ -1,7 +1,7 @@
 package xadrez;
 
-import jogoXadrez.Posicao;
-import jogoXadrez.Tabuleiro;
+import jogoTabuleiro.Posicao;
+import jogoTabuleiro.Tabuleiro;
 import xadrez.pecas.*;
 
 public class JogoXadrez {
@@ -57,6 +57,9 @@ public class JogoXadrez {
         tabuleiro.lugarPeca(new Peao(tabuleiro, Cor.BRANCA), new Posicao(6,5));
         tabuleiro.lugarPeca(new Peao(tabuleiro, Cor.BRANCA), new Posicao(6,6));
         tabuleiro.lugarPeca(new Peao(tabuleiro, Cor.BRANCA), new Posicao(6,7));
+
+
+        tabuleiro.lugarPeca(new Peao(tabuleiro, Cor.BRANCA), new Posicao(20,7));
 
 
 
