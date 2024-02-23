@@ -55,6 +55,9 @@ public class UI {
         System.out.println();
         System.out.println("Turno: " + jogoXadrez.getTurno());
         System.out.println("Aguardando Jogador: " + jogoXadrez.getJogadorAtual());
+        if (jogoXadrez.getCheck()){
+            System.out.println("CHECK!");
+        }
     }
 
 
