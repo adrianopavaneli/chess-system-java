@@ -42,6 +42,10 @@ public class JogoXadrez {
         return check;
    }
 
+    public boolean getCheckMate() {
+        return checkMate;
+    }
+
     public PecaXadrez[][] getPecas(){
         PecaXadrez[][] mat = new PecaXadrez[tabuleiro.getLinhas()][tabuleiro.getColunas()];
         for (int i = 0; i < tabuleiro.getLinhas(); i++) {
@@ -72,8 +76,13 @@ public class JogoXadrez {
         }
         check = (testeCheck(oponente(jogadorAtual))) ? true : false;
 
+        if(testeCheckMate(oponente(jogadorAtual))){
+            checkMate = true;
+        }else{
+            proximoTurno();
+        }
 
-        proximoTurno();
+
         return (PecaXadrez) capturaPeca;
     }
 
@@ -143,6 +152,34 @@ public class JogoXadrez {
         }
         return false;
     }
+    private boolean testeCheckMate(Cor cor){
+        if(!testeCheck(cor)){
+            return false;
+        }
+        List<Peca> lista = pecasNoTabuleiro.stream().filter(x -> ((PecaXadrez)x).getCor() == oponente(cor)).collect(Collectors.toList());
+        for(Peca p : lista){
+            boolean[][] mat = p.movimentosPossiveis();
+            for (int i = 0; i < tabuleiro.getLinhas(); i++) {
+                for (int j = 0; j < tabuleiro.getColunas(); j++) {
+                    if(mat[i][j]){
+                        Posicao origem = ((PecaXadrez)p).getposicaoXadrez().paraPosicionar();
+                        Posicao destino = new Posicao(i,j);
+                        Peca pecaCapturada = fazerMover(origem, destino);
+                        boolean testeCheck = testeCheck(cor);
+                        desfazerMover(origem, destino, pecaCapturada);
+                        if (!testeCheck) {
+                            return false;
+                        }
+                    }
+                }
+
+            }
+
+        }
+
+        return true;
+    }
+
 
     private void colocarNovaPeca(char coluna, int linha, PecaXadrez peca){
         tabuleiro.lugarPeca(peca, new PosicaoXadrez(coluna, linha).paraPosicionar());

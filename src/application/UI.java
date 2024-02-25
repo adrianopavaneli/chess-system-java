@@ -54,10 +54,17 @@ public class UI {
         imprimePecasCapturadas(capturadas);
         System.out.println();
         System.out.println("Turno: " + jogoXadrez.getTurno());
-        System.out.println("Aguardando Jogador: " + jogoXadrez.getJogadorAtual());
-        if (jogoXadrez.getCheck()){
-            System.out.println("CHECK!");
+        if(!jogoXadrez.getCheckMate()){
+            System.out.println("Aguardando Jogador: " + jogoXadrez.getJogadorAtual());
+            if (jogoXadrez.getCheck()){
+                System.out.println("CHECK!");
+            }
+
+        }else{
+            System.out.println("CHECKMATE");
+            System.out.println("Vencedor: " + jogoXadrez.getJogadorAtual());
         }
+
     }
 
 
