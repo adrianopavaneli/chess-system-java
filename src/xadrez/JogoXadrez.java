@@ -119,7 +119,7 @@ public class JogoXadrez {
             throw new IllegalArgumentException("Não há peça para ser promovida!");
         }
         if (!type.equals("B") && !type.equals("C") && !type.equals("T") && !type.equals("R")){
-            throw new InvalidParameterException("Letra Inválida");
+            return promocao;
         }
         Posicao pos = promocao.getposicaoXadrez().paraPosicionar();
         Peca p = tabuleiro.removePeca(pos);
